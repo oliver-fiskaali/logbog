@@ -1,6 +1,8 @@
 # Logbog
 **Logbog af Informatik-projekter:**
+
 **3D-print**
+
 Terning:
 Formel: Længde * Bredde * Højde
 Mine mål: 2 * 2 * 2 = 8 cm3
