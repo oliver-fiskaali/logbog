@@ -1,2 +1,2 @@
 # logbog
-Logbog af Tello Droneprojekt
+Logbog af Informatik-projekter
