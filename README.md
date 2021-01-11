@@ -41,29 +41,28 @@ Vores bane foregår uden for vores klasselokale, D2304. Man starter og flyver ru
 
 
 **Brainstorm:**
-1
-Fodstyret
+Fodstyret controller:
 Meningen ville være at skabe en form for sko, som man skulle tage på sin fod. Den sko skulle så på en eller anden måde være koblet til dronen, så dronen ville rykke sig, som man rykkede sin fod.
-2
-Håndstyret
+
+Håndstyret controller:
 Samme idé som fodstyret, men med en handske.
-3
-Fjernbetjening
+
+Fjernbetjening:
 En form for klassisk controller med knapper og joystick til styring.
-4
-Eyetracker
+
+Eyetracker:
 Dronen ville være styret af øjnene. Den ville rykke sig efter hvordan man flyttede sine øjne.
-5
-Autopilot
+
+Autopilot:
 Tanken var at programmere en autopilot, som kunne flyve dronen sikkert.
-6
-Hjernestyret
+
+Hjernestyret:
 På en måde få dronen til at flytte sig efter hjernens tanker.
-7
-Led-styring
+
+Led-styring:
 Dronen skulle styres efter bøjning af led på arme og ben. 
-8
-Face-recognition
+
+Face-recognition:
 Tanken var at få dronen til at genkende ansigter når den så dem og så derefter flyve direkte mod deres ansigt.
 
 **Kort beskrivelse af gestaltlove:**
