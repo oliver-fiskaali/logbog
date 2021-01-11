@@ -17,8 +17,10 @@ Mine mål: 4/3 * π * 1,253 = 8,177 cm3
 For at lave min kugle har jeg brugt “Sphere”-funktionen. Med “Sphere”-funktionen er der så blevet udarbejdet en kugle ud fra mit valg af radius på 1,25 cm.
 
 **Dronecontroller**
+
 **Kort beskrivelse af projekt:**
 Vi har efter vores brainstorm valgt at lave en form for "Dance Dance Revolution"-agtig controller.
+
 **Brugerundersøgelse:**
 Ved hjælp af vores brugerundersøgelse har vi tænkt os at teste controllerens præcision, sikkerhed og respons, samt brugerens oplevelse. Vores brugerundersøgelse foregår på en bane, som brugeren skal gennemføre. Derefter vil vi stille nedenstående spørgsmål til brugeren, for at få en indsigt i hvordan nye brugere har det med at bruge controlleren. Derudover observere vi også selv dronens opførsel og eventuelle ting som kan forbedres. Vi har tænkt os at transskribere brugerens svar. 
 
@@ -41,6 +43,7 @@ Vores bane foregår uden for vores klasselokale, D2304. Man starter og flyver ru
 
 
 **Brainstorm:**
+
 Fodstyret controller:
 Meningen ville være at skabe en form for sko, som man skulle tage på sin fod. Den sko skulle så på en eller anden måde være koblet til dronen, så dronen ville rykke sig, som man rykkede sin fod.
 
