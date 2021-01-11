@@ -21,9 +21,11 @@ For at lave min kugle har jeg brugt “Sphere”-funktionen. Med “Sphere”-fu
 **Dronecontroller**
 
 **Kort beskrivelse af projekt:**
+
 Vi har efter vores brainstorm valgt at lave en form for "Dance Dance Revolution"-agtig controller.
 
 **Brugerundersøgelse:**
+
 Ved hjælp af vores brugerundersøgelse har vi tænkt os at teste controllerens præcision, sikkerhed og respons, samt brugerens oplevelse. Vores brugerundersøgelse foregår på en bane, som brugeren skal gennemføre. Derefter vil vi stille nedenstående spørgsmål til brugeren, for at få en indsigt i hvordan nye brugere har det med at bruge controlleren. Derudover observere vi også selv dronens opførsel og eventuelle ting som kan forbedres. Vi har tænkt os at transskribere brugerens svar. 
 
 Spørgsmål til brugeren:
@@ -71,6 +73,7 @@ Face-recognition:
 Tanken var at få dronen til at genkende ansigter når den så dem og så derefter flyve direkte mod deres ansigt.
 
 **Kort beskrivelse af gestaltlove:**
+
 1) Nærhed (proximity). Figurer der er placeret tæt på hinanden ses som en gruppe.
 2) Lighed (similarity invarians). Ens figurer opfattes som en gruppe.
 3) Lukkethed (closure). Delelementer af et billede stykkes sammen til at skabe helheden.
@@ -80,12 +83,15 @@ Tanken var at få dronen til at genkende ansigter når den så dem og så dereft
 7) Forbundethed – Forbindes figurer med en streg, opfattes de umiddelbart som sammenhørende (forbundenhed er et design tips – ikke en gestaltlov).
 
 **Kode til 'Seriel-split finder'**
+
 import serial import tellopy import sysdef Hej(): if (rxLine == “Ned”): print(“ned”) if (rxLine == “Op”): print(“op”)if (rxLine == “Ventre”): print(“venstre”) if (rxLine == “Hojre”): print(“højre”)if (rxLine == “Hdrej”): print(“svingh”) if (rxLine == “Vdrej”): print(“svingv”)if (rxLine == “Frem”): print(“frem”) if (rxLine == “Tilbage”): print(“tilbage”)serialPortName = “COM5” baudRate = 9600 try: s = serial.Serial(serialPortName,baudRate,timeout=1)except: print(“Failed to open”, serialPortName, “as a serial port.. are you doingthis right?”) sys.exit(1)print(“Shit, it worked.. waiting for serial data. . . ”)try: while(s.is_open):if(s.in_waiting>0):rxLine=s.readline().decode("ascii").strip()Hej()except: Hej()1
 
 **Test af TELLO-Drone ved hjælp af indbyggede commands**
+
 import tellopy import time import keyboarddrone = tellopy.Tello()drone.connect()drone.takeoff() while True: try: while (keyboard.is_pressed(“f”)): drone.down(40)(keyboard.on_release(“f”)):    drone.up(40)  if  (keyboard.is_pressed(“r”)):drone.up(40)  if  (keyboard.on_release(“r”)):    drone.down(40)  if  (key-board.is_pressed(“a”)):drone.left(40)   if   (keyboard.on_release(“a”)):drone.right(40)  if  (keyboard.is_pressed(“d”)):   drone.right(40)  if  (key-board.on_release(“d”)):drone.left(40)   if   (keyboard.is_pressed(“q”)):drone.counterclockwise(100) if (keyboard.on_release(“q”)): drone.clockwise(100)if (keyboard.is_pressed(“e”)): drone.clockwise(100) if (keyboard.on_release(“e”)):drone.counterclockwise(100) if (keyboard.is_pressed(“w”)): drone.forward(50) if(keyboard.on_release(“w”)): drone.backward(50) if (keyboard.is_pressed(“s”)):drone.backward(50)  if  (keyboard.on_release(“s”)):   drone.forward(50)  if(keyboard.is_pressed(“p”)): drone.land() except: drone.land()1
 
 **Privathed, sikkerhed, passwords:**
+
 Under dette forløb har vi blandt andet set filmen 'Snowden'.
 I dette forløb har vi sat fokus på om overvågning. Det har vi gjort ved både at kigge på hvor meget vi bliver overvåget på nettet, men også individ-overvågning, som er nårder bliver sat fokus på én person. Dette kan både være pga. kriminalitet, at der bliver set på hvad man laver, men det kan også være at man kan blive udsat for overvågning efter at have trykket på et link eller downloaded noget, som man ikke skulle have gjort.
 Vi har også sat stort fokus på passwords sikkerhed. Vi har bl.a. kigget på programmer som simpelthen er lavet til at nedbryde passwords vha. wordlists.
