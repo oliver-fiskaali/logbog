@@ -4,18 +4,27 @@
 **3D-print**
 
 Terning:
+
 Formel: Længde * Bredde * Højde
+
 Mine mål: 2 * 2 * 2 = 8 cm3
+
 Jeg har lavet min terning ved at starte med at skitsere en firkant og derefter brugt “extrude”-funktionen, for at trække i den og gøre den tredimensionel.
 
 Cylinder:
+
 Formel: Grundflade (π * r2) * Højde
+
 Mine mål: 4,9 (π * 1,252) * 2 = 9,8 cm3
+
 Jeg har lavet min cylinder ved at starte med at skitsere en cirkel og derefter brugt “extrude”-funktionen, for at trække i den og gøre den tredimensionel.
 
 Kugle: 
+
 Formel for rumfang: 4/3 * π * r3
+
 Mine mål: 4/3 * π * 1,253 = 8,177 cm3
+
 For at lave min kugle har jeg brugt “Sphere”-funktionen. Med “Sphere”-funktionen er der så blevet udarbejdet en kugle ud fra mit valg af radius på 1,25 cm.
 
 **Dronecontroller**
